@@ -21,7 +21,11 @@ nav{
 .nav-logo-title{
     display: flex;
 }
-
+.nav-logo{
+    width: 60px;
+    height: 60px;
+    padding-top: 23px;
+}
 .nav-title{
     margin-left: 15px;
 font-size: 2.25rem;
@@ -54,6 +58,9 @@ font-weight: 400;
 }
 
 
+
+/* smaller device */
+
 @media only screen and (max-width: 600px) {
     nav{
         display: flex; 
@@ -69,8 +76,11 @@ font-weight: 400;
         padding-right: 20px;
        
     }
-    .nav-logo img{
-        width: 100%;
+    .nav-logo{
+        width: 30px;
+        height: 40px;
+        padding-top: 9px;
+        padding-left: 20px;
     }
 
     .nav-menu {
@@ -84,5 +94,76 @@ font-weight: 400;
         margin-right: ;
         text-align: center;
         padding: 10px;
+    }
+}
+
+/* medium device */
+@media screen and (min-width:600px) and (max-width:992px){
+    
+    nav{
+        display: flex; 
+        justify-content: space-between;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .nav-title{
+        font-size: 2.5rem;
+        padding-left: 20px;
+        
+    }
+    .menu-toggle {
+        display: block;
+        padding-right: 50px;
+       
+    }
+    .nav-logo{
+        width: 70px;
+        height: 70px;
+        padding-top: 23px;
+        padding-left: 50px;
+    }
+
+    .nav-menu {
+        display: none;  
+    }   
+
+    .nav-list li {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/* larger devices */
+@media screen and (min-width:992px) and (max-width:1200px){
+    
+    nav{
+        display: flex; 
+        justify-content: space-between;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .nav-title{
+        font-size: 2.5rem;
+        
+    }
+    .menu-toggle {
+        display: block;
+        padding-right: 50px;
+       
+    }
+    .nav-logo{
+        width: 50px;
+        height: 60px;
+        padding-top: 27px;
+        padding-left: 50px;
+    }
+
+    .nav-menu {
+        display: none;  
+    }   
+
+    .nav-list li {
+        text-align: center;
+        padding: 20px;
     }
 }
