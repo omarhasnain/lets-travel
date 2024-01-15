@@ -1,0 +1,88 @@
+/* Mulish Font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* shared styles */
+.secondary-color{
+    color: #FF5400;
+}
+
+/* navigation styles */
+
+nav{
+    display: flex; 
+    justify-content: space-between;
+    margin: 50px 125px;
+    align-items: center;
+}
+.nav-logo-title{
+    display: flex;
+}
+
+.nav-title{
+    margin-left: 15px;
+font-size: 2.25rem;
+font-weight: 800;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 40px;
+    color: #424247;
+font-family: Mulish;
+font-size: 1.125rem;
+font-weight: 400;
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px 0;
+}
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display: flex; 
+        justify-content: space-between;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .nav-title{
+        font-size: 1.25rem;
+    }
+    .menu-toggle {
+        display: block;
+        padding-right: 20px;
+       
+    }
+    .nav-logo img{
+        width: 100%;
+    }
+
+    .nav-menu {
+        display: none;  
+    }
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin-right: ;
+        text-align: center;
+        padding: 10px;
+    }
+}
