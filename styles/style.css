@@ -375,13 +375,18 @@ select {
 }
 
 .best-price {
-    
-
     border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20); 
+    background: rgba(41, 206, 246, 0.05);
     max-width: 573px;
     max-height: 300px;
+}
+.consult{
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.consult-image{
+    width: 65px;
 }
 
 /* Facts styles */
@@ -828,6 +833,7 @@ select {
         font-size: 1.5rem;
         font-weight: 400;
     }
+    /* services */
     .service {
         margin: 30px 120px;
     }
