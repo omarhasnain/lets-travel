@@ -217,15 +217,15 @@ font-weight: 400;
 .destination{
     margin: 100px 125px 0 125px;
 }
-.destination-contents{
+.common-contents{
     text-align: center;
 }
-.destination-title{
+.common-title{
     color: #131318;
 font-size: 2.5rem;
 font-weight: 800;
 }
-.destination-description{
+.common-description{
     color: rgba(19, 19, 24, 0.70);
 font-size: 1rem;
 font-weight: 400;
@@ -407,13 +407,13 @@ font-weight: 800;
     .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
         width: 300px;
     }
-    .destination-title, .destination h3{
+    .common-title, .destination h3{
         color: #131318;
     font-size: 1.25rem;
     font-weight: 800;
     }
 
-    .destination .destination-description{
+    .destination .common-description{
         color: rgba(19, 19, 24, 0.70);
     font-size: 0.875rem;
     font-weight: 400;
@@ -506,12 +506,12 @@ font-weight: 800;
     .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
         width: 650px;
     }
-    .destination-title, .destination h3{
+    .common-title, .destination h3{
         color: #131318;
     font-size: 1.8rem;
     font-weight: 800;
     }
-    .destination .destination-description{
+    .destination .common-description{
         color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -597,12 +597,12 @@ font-weight: 800;
     .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
         width: 770px;
     }
-    .destination h3, .destination-title{
+    .destination h3, .common-title{
         color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
     }
-    .destination .destination-description{
+    .destination .common-description{
         color: rgba(19, 19, 24, 0.70);
     font-size: 1.5rem;
     font-weight: 400;
