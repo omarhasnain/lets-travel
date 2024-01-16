@@ -211,6 +211,29 @@ font-weight: 700;
         text-align: center;
         padding: 10px;
     }
+    form {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .explore{
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    .explore-contents {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .explore-title {
+        font-size: 1.5rem;
+    }
+
+    .search-btn {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    
 }
 
 /* medium device */
@@ -247,6 +270,24 @@ font-weight: 700;
         text-align: center;
         padding: 20px;
     }
+    
+    .explore{
+        margin: auto;
+        width: 700px;
+    }
+    .explore-contents {
+        padding: 60px 20px 10px 20px;
+    }
+
+    .explore-title {
+        font-size: 1.8rem;
+    }
+
+    .search-btn {
+       
+        font-size: 16px;
+    }
+
 }
 
 /* larger devices */
@@ -281,5 +322,17 @@ font-weight: 700;
     .nav-list li {
         text-align: center;
         padding: 20px;
+    }
+    .explore-contents {
+        padding: 80px 20px 40px 20px;
+    }
+
+    .explore-title {
+        font-size: 2rem;
+    }
+
+    .search-btn {
+        padding: 16px 30px 16px 65px;
+        font-size: 18px;
     }
 }
