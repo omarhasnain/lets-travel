@@ -212,15 +212,106 @@ font-weight: 400;
     
 }
 
+/* Destinations Styles */
 
+.destination{
+    margin: 100px 125px 0 125px;
+}
+.destination-contents{
+    text-align: center;
+}
+.destination-title{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+flex-wrap: wrap;
+}
+.row{
+    margin-right: 125px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-bottom: 5px;
+    padding: 2px;
+    
+    
+}
+.maldives{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 530px;
+   
 
+}
+.destination .row h3{
+    padding: 100px;
+    color: #FFF;
+text-align: center;
+font-size: 1.75rem;
+font-weight: 800;
 
-
-
-
-
-
-
+}
+.row div{
+    flex: 1;
+}
+.indonesia{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    
+}
+.srilanka{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+   
+}
+.north-america{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+}
+.kashmir{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 83%;
+}
+.bangladesh{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+}
+.bandarban{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 585px;
+}
 
 
 
@@ -305,8 +396,31 @@ font-weight: 400;
         margin-top: 0;
         width: 100%;
     }
+    /* Destination */
+
+    .destination {
+        margin: 180px 26px 0 26px;
+    }
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
+        width: 300px;
+    }
+    .destination-title, .destination h3{
+        color: #131318;
+    font-size: 1.25rem;
+    font-weight: 800;
+    }
+
+    .destination .destination-description{
+        color: rgba(19, 19, 24, 0.70);
+    font-size: 0.875rem;
+    font-weight: 400;
+    }
     
 }
+
 
 /* medium device */
 @media screen and (min-width:600px) and (max-width:992px){
@@ -381,6 +495,28 @@ font-weight: 400;
         width: 100%;
     }
 
+    /* destination */
+    .destination {
+        margin: 400px 50px 0 50px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
+        width: 650px;
+    }
+    .destination-title, .destination h3{
+        color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+    }
+    .destination .destination-description{
+        color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    }
+
 
 }
 
@@ -450,4 +586,26 @@ font-weight: 400;
         margin-top: 0;
         width: 100%;
     }
+    /* destination */
+    .destination {
+        margin: 650px 120px 0 120px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
+        width: 770px;
+    }
+    .destination h3, .destination-title{
+        color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+    .destination .destination-description{
+        color: rgba(19, 19, 24, 0.70);
+    font-size: 1.5rem;
+    font-weight: 400;
+    }
+    
 }
