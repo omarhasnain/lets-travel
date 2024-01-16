@@ -384,8 +384,47 @@ select {
     max-height: 300px;
 }
 
+/* Facts styles */
+/* facts section */
+.facts{
+    text-align: center;
+    margin: 0 125px;
+}
+.facts-card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF5400;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card:hover{
+    background-color: #ff55003d;
+}
+.facts-card-container .card img{
+    width: 50px;
+}
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
+
+
+/* Responsive Designs */
 /* smaller device */
 
 @media only screen and (max-width: 600px) {
@@ -518,6 +557,25 @@ select {
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
     }
+    /* Facts */
+    .facts{
+        margin: 10px 12px;
+    }
+    .facts-card-container {
+        margin-top: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        gap:10px;
+    }
+    
+    .facts-card-container .card-title {
+        font-size: 1rem;
+    }
+    
+    .facts-card-container .card-stats {
+        font-size: 1.8rem;
+    }
+    
 
 }
 
@@ -644,8 +702,24 @@ select {
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
     }
-
-
+    /* facts */
+    .facts{
+        margin: 20px 50px;
+    }
+    .facts-card-container {
+        margin-top: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        gap:10px;
+    }
+    
+    .facts-card-container .card-title {
+        font-size: 1rem;
+    }
+    
+    .facts-card-container .card-stats {
+        font-size: 1.8rem;
+    }
 }
 
 /* larger devices */
@@ -763,6 +837,24 @@ select {
         display: flex;
         flex-direction: column;
         gap: 24px;
+    }
+    /* facts */
+    .facts{
+        margin: 30px 120px;
+    }
+    .facts-card-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        gap:10px;
+    }
+    
+    .facts-card-container .card-title {
+        font-size: 1rem;
+    }
+    
+    .facts-card-container .card-stats {
+        font-size: 1.8rem;
     }
 
 }
