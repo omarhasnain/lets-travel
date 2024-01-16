@@ -1,14 +1,15 @@
 /* Mulish Font from Google */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
 
 /* shared styles */
-.secondary-color{
+.secondary-color {
     color: #FF5400;
 }
+
 .btn-primary {
     border-radius: 8px;
     color: #FFF;
@@ -19,7 +20,8 @@
     cursor: pointer;
     border: 0;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: #FF5400;
     background-color: #FFF;
     border: 2px solid #FF5400;
@@ -27,39 +29,46 @@
 
 /* Navigation Styles Starts*/
 
-nav{
-    display: flex; 
+nav {
+    display: flex;
     justify-content: space-between;
     margin: 30px 125px;
     align-items: center;
 }
-.nav-logo-title{
+
+.nav-logo-title {
     display: flex;
 }
-.nav-logo{
+
+.nav-logo {
     width: 60px;
     height: 60px;
     padding-top: 23px;
 }
-.nav-title{
+
+.nav-title {
     margin-left: 15px;
-font-size: 2.25rem;
-font-weight: 800;
+    font-size: 2.25rem;
+    font-weight: 800;
 }
-.nav-menu ul{
+
+.nav-menu ul {
     display: flex;
 }
-.nav-menu li{
+
+.nav-menu li {
     list-style: none;
     margin-right: 40px;
     color: #424247;
-font-family: Mulish;
-font-size: 1.125rem;
-font-weight: 400;
+    font-family: Mulish;
+    font-size: 1.125rem;
+    font-weight: 400;
 }
-.nav-menu a{
+
+.nav-menu a {
     text-decoration: none;
 }
+
 .bar {
     display: block;
     width: 25px;
@@ -67,6 +76,7 @@ font-weight: 400;
     background-color: #000000;
     margin: 5px 0;
 }
+
 .menu-toggle {
     cursor: pointer;
     display: none;
@@ -76,34 +86,38 @@ font-weight: 400;
 
 /* Explore Style Starts */
 
-.explore{
+.explore {
     margin: 0px 125px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/banner.png');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 500px;
 }
-.explore-contents{
+
+.explore-contents {
     text-align: center;
     max-width: 800px;
     padding: 80px 245px 240px 245px;
 }
-.explore-title{
+
+.explore-title {
     color: #FFF;
-font-size: 4rem;
-font-weight: 800;
-margin-bottom: 0;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0;
 }
-.explore-description{
+
+.explore-description {
     color: #FFF;
     text-align: center;
     font-family: Mulish;
     font-size: 1rem;
     font-weight: 400;
-    
+
 }
+
 /* .explore-inputs{
     background-color: #FFF;
 }
@@ -122,8 +136,8 @@ input{
     display: flex;
     padding: 16px;
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-    
+    background: rgba(255, 255, 255, 0.30);
+
 }
 
 form {
@@ -144,8 +158,8 @@ form {
 input,
 select {
     color: rgba(19, 19, 24, 0.50);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
     width: calc(100% - 16px);
     padding: 8px;
     margin: 0;
@@ -162,19 +176,19 @@ font-weight: 400;
 }
 
 .search-btn {
-    display:flex ;
+    display: flex;
     width: 100%;
-text-align: start;
+    text-align: start;
     border-radius: 8px;
-background: #FF5400;
+    background: #FF5400;
     color: white;
     padding: 16px 30px 16px 65px;
     border: none;
     cursor: pointer;
     color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .search-btn:hover {
@@ -187,100 +201,113 @@ font-weight: 700;
 
 /* Tours Section Styles */
 
-.tours{
+.tours {
     margin-top: 130px;
     display: flex;
     gap: 100px;
     height: 550px;
     margin-left: 125px;
     margin-right: 125px;
-    
+
 }
-.tours-title{
+
+.tours-title {
     color: #131318;
-font-size: 2.5rem;
-font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
-.tours .tours-description{
+
+.tours .tours-description {
     color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.tours-image img{
+
+.tours-image img {
     margin-top: 33px;
     height: 73%;
-    
+
 }
 
 /* Destinations Styles */
 
-.destination{
+.destination {
     margin: 100px 125px 0 125px;
 }
-.common-contents{
+
+.common-contents {
     text-align: center;
 }
-.common-title{
+
+.common-title {
     color: #131318;
-font-size: 2.5rem;
-font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
-.common-description{
+
+.common-description {
     color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
-flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 400;
+    flex-wrap: wrap;
 }
-.row{
+
+.row {
     margin-right: 125px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-bottom: 5px;
     padding: 2px;
-    
-    
+
+
 }
-.maldives{
+
+.maldives {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 530px;
-   
+
 
 }
-.destination .row h3{
+
+.destination .row h3 {
     padding: 100px;
     color: #FFF;
-text-align: center;
-font-size: 1.75rem;
-font-weight: 800;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
 
 }
-.row div{
+
+.row div {
     flex: 1;
 }
-.indonesia{
+
+.indonesia {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 500px;
-    
+
 }
-.srilanka{
+
+.srilanka {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-   
+
 }
-.north-america{
+
+.north-america {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
@@ -288,7 +315,8 @@ font-weight: 800;
     background-position: center;
     width: 450px;
 }
-.kashmir{
+
+.kashmir {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
@@ -296,7 +324,8 @@ font-weight: 800;
     background-position: center;
     width: 83%;
 }
-.bangladesh{
+
+.bangladesh {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
@@ -304,7 +333,8 @@ font-weight: 800;
     background-position: center;
     width: 450px;
 }
-.bandarban{
+
+.bandarban {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
     background-size: cover;
@@ -313,29 +343,70 @@ font-weight: 800;
     width: 585px;
 }
 
+/* Service Section Starts */
+.service {
+    margin: 100px 125px;
+}
 
+.service-collage {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
 
+.hotel,
+.worldclass,
+.best-price {
+    padding: 30px 55px 30px 30px;
+
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.worldclass {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.best-price {
+    
+
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    max-width: 573px;
+    max-height: 300px;
+}
 
 
 
 /* smaller device */
 
 @media only screen and (max-width: 600px) {
-    nav{
-        display: flex; 
+    nav {
+        display: flex;
         justify-content: space-between;
         margin: 20px auto;
         align-items: center;
     }
-    .nav-title{
+
+    .nav-title {
         font-size: 1.25rem;
     }
+
     .menu-toggle {
         display: block;
         padding-right: 20px;
-       
+
     }
-    .nav-logo{
+
+    .nav-logo {
         width: 30px;
         height: 40px;
         padding-top: 9px;
@@ -343,8 +414,9 @@ font-weight: 800;
     }
 
     .nav-menu {
-        display: none;  
+        display: none;
     }
+
     .nav-list.show {
         display: flex;
     }
@@ -354,15 +426,18 @@ font-weight: 800;
         text-align: center;
         padding: 10px;
     }
+
     form {
         flex-direction: column;
         gap: 5px;
     }
-    .explore{
+
+    .explore {
         margin: auto;
         width: 300px;
         height: auto;
     }
+
     .explore-contents {
         padding: 20px 20px 40px 20px;
     }
@@ -377,71 +452,99 @@ font-weight: 800;
     }
 
     /* tours */
-    .tours{
+    .tours {
         margin: 20px 26px 0 26px;
         flex-direction: column;
-        gap: 20px;   
+        gap: 20px;
     }
-    .tours-title{
+
+    .tours-title {
         color: #131318;
-    font-size: 1.25rem;
-    font-weight: 800;
+        font-size: 1.25rem;
+        font-weight: 800;
     }
-    .tours .tours-description{
+
+    .tours .tours-description {
         color: rgba(19, 19, 24, 0.70);
-    font-size: 0.875rem;
-    font-weight: 400;
+        font-size: 0.875rem;
+        font-weight: 400;
     }
-    .tours-image img{
+
+    .tours-image img {
         margin-top: 0;
         width: 100%;
     }
+
     /* Destination */
 
     .destination {
         margin: 180px 26px 0 26px;
     }
+
     .row {
         grid-template-columns: repeat(1, 1fr);
     }
-    .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
         width: 300px;
     }
-    .common-title, .destination h3{
+
+    .common-title,
+    .destination h3 {
         color: #131318;
-    font-size: 1.25rem;
-    font-weight: 800;
+        font-size: 1.25rem;
+        font-weight: 800;
     }
 
-    .destination .common-description{
+    .destination .common-description {
         color: rgba(19, 19, 24, 0.70);
-    font-size: 0.875rem;
-    font-weight: 400;
+        font-size: 0.875rem;
+        font-weight: 400;
     }
-    
+
+    .service {
+        margin: 10px 12px;
+    }
+
+    .service-collage {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
 }
 
 
 /* medium device */
-@media screen and (min-width:600px) and (max-width:992px){
-    
-    nav{
-        display: flex; 
+@media screen and (min-width:600px) and (max-width:992px) {
+
+    nav {
+        display: flex;
         justify-content: space-between;
         margin: 20px auto;
         align-items: center;
     }
-    .nav-title{
+
+    .nav-title {
         font-size: 2.5rem;
         padding-left: 20px;
-        
+
     }
+
     .menu-toggle {
         display: block;
         padding-right: 50px;
-       
+
     }
-    .nav-logo{
+
+    .nav-logo {
         width: 70px;
         height: 70px;
         padding-top: 23px;
@@ -449,18 +552,19 @@ font-weight: 800;
     }
 
     .nav-menu {
-        display: none;  
-    }   
+        display: none;
+    }
 
     .nav-list li {
         text-align: center;
         padding: 20px;
     }
-    
-    .explore{
+
+    .explore {
         margin: auto;
         width: 700px;
     }
+
     .explore-contents {
         padding: 60px 20px 10px 20px;
     }
@@ -470,27 +574,30 @@ font-weight: 800;
     }
 
     .search-btn {
-       
+
         font-size: 16px;
     }
 
     /* tours */
-    .tours{
+    .tours {
         margin: 20px 50px 0 50px;
         flex-direction: column;
-        gap: 20px;   
+        gap: 20px;
     }
-    .tours-title{
+
+    .tours-title {
         color: #131318;
-    font-size: 1.8rem;
-    font-weight: 800;
+        font-size: 1.8rem;
+        font-weight: 800;
     }
-    .tours .tours-description{
+
+    .tours .tours-description {
         color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
-    font-weight: 400;
+        font-size: 1rem;
+        font-weight: 400;
     }
-    .tours-image img{
+
+    .tours-image img {
         margin-top: 0;
         width: 100%;
     }
@@ -499,46 +606,70 @@ font-weight: 800;
     .destination {
         margin: 400px 50px 0 50px;
     }
+
     .row {
         display: flex;
         flex-direction: column;
     }
-    .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
         width: 650px;
     }
-    .common-title, .destination h3{
+
+    .common-title,
+    .destination h3 {
         color: #131318;
-    font-size: 1.8rem;
-    font-weight: 800;
+        font-size: 1.8rem;
+        font-weight: 800;
     }
-    .destination .common-description{
+
+    .destination .common-description {
         color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
-    font-weight: 400;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .service {
+        margin: 20px 50px;
+    }
+
+    .service-collage {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
     }
 
 
 }
 
 /* larger devices */
-@media screen and (min-width:992px) and (max-width:1200px){
-    
-    nav{
-        display: flex; 
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    nav {
+        display: flex;
         justify-content: space-between;
         margin: 20px auto;
         align-items: center;
     }
-    .nav-title{
+
+    .nav-title {
         font-size: 2.5rem;
-        
+
     }
+
     .menu-toggle {
         display: block;
         padding-right: 50px;
-       
+
     }
-    .nav-logo{
+
+    .nav-logo {
         width: 50px;
         height: 60px;
         padding-top: 27px;
@@ -546,13 +677,14 @@ font-weight: 800;
     }
 
     .nav-menu {
-        display: none;  
-    }   
+        display: none;
+    }
 
     .nav-list li {
         text-align: center;
         padding: 20px;
     }
+
     .explore-contents {
         padding: 80px 20px 40px 20px;
     }
@@ -567,45 +699,70 @@ font-weight: 800;
     }
 
     /* tours */
-    .tours{
+    .tours {
         margin: 20px 120px;
         flex-direction: column;
-        gap: 20px;   
+        gap: 20px;
     }
-    .tours-title{
+
+    .tours-title {
         color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
+        font-size: 2.5rem;
+        font-weight: 800;
     }
-    .tours .tours-description{
+
+    .tours .tours-description {
         color: rgba(19, 19, 24, 0.70);
-    font-size: 1.5rem;
-    font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 400;
     }
-    .tours-image img{
+
+    .tours-image img {
         margin-top: 0;
         width: 100%;
     }
+
     /* destination */
     .destination {
         margin: 650px 120px 0 120px;
     }
+
     .row {
         display: flex;
         flex-direction: column;
     }
-    .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban {
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
         width: 770px;
     }
-    .destination h3, .common-title{
+
+    .destination h3,
+    .common-title {
         color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
+        font-size: 2.5rem;
+        font-weight: 800;
     }
-    .destination .common-description{
+
+    .destination .common-description {
         color: rgba(19, 19, 24, 0.70);
-    font-size: 1.5rem;
-    font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 400;
     }
-    
+    .service {
+        margin: 30px 120px;
+    }
+
+    .service-collage {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
 }
