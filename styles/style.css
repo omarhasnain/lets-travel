@@ -695,13 +695,8 @@ footer .footer .social-links a{
     /* footer */
     
 .footer{
-    text-align: center;
     padding: 15px 12px;
     background: rgba(19, 19, 24, 0.05);
-}
-.footer-logo-title{
-    display: flex;
-    justify-content: center;
 }
 .footer-logo {
     width: 30px;
@@ -715,7 +710,13 @@ footer .footer .social-links a{
     font-size: 1.25rem;
     margin-top: 20px;
     font-weight: 800;
-} 
+}
+.footer-description{
+font-size: 0.875rem;
+padding: 0 15px;
+}
+
+    
 
 }
 
