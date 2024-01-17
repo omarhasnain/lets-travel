@@ -270,8 +270,10 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     width: 530px;
-
-
+}
+.maldives:hover{
+    cursor: pointer;
+    transform: rotate(-5deg);
 }
 
 .destination .row h3 {
@@ -294,7 +296,10 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     width: 500px;
-
+}
+.indonesia:hover{
+    cursor: pointer;
+    transform: rotate(5deg);
 }
 
 .srilanka {
@@ -304,7 +309,11 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-
+    transition: ease 0.1s;
+}
+.srilanka:hover{
+    cursor: pointer;
+    width: 600px;
 }
 
 .north-america {
@@ -323,8 +332,12 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     width: 83%;
+    transition: ease 0.1s;
 }
-
+.kashmir:hover{
+    cursor: pointer;
+    width: 600px;
+}
 .bangladesh {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
     border-radius: 16px;
