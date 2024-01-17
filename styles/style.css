@@ -140,7 +140,7 @@ input{
 
 }
 
-form {
+.search-form {
     display: flex;
     gap: 24px;
 }
@@ -382,6 +382,7 @@ select {
     max-height: 300px;
 }
 .consult{
+    flex-wrap: nowrap;
     background: rgba(251, 181, 99, 0.05);
     border: 1px solid rgba(251, 181, 99, 0.20);
 }
@@ -426,8 +427,48 @@ select {
     margin-bottom: 10px;
 }
 
+/* Newsletter Styles */
+.newsletter{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 125px;
+}
+.contact{
+padding: 40px;
+border: 1px solid #FF5400;
+border-radius: 16px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-image{
+    width: 500px;
+height: 510px;
+}
 
+.contact-input, .btn-primary{
+    width: 390px;
+    height: 52px;
+    margin: 5px;
+    padding: 16px 100px 20px 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.contact-input{
+background: rgba(19, 19, 24, 0.05);
+}
 
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+color: white;
+padding: 15px 35px;
+}
 
 /* Responsive Designs */
 /* smaller device */
@@ -471,7 +512,7 @@ select {
         padding: 10px;
     }
 
-    form {
+    .search-form {
         flex-direction: column;
         gap: 5px;
     }
@@ -579,6 +620,16 @@ select {
     
     .facts-card-container .card-stats {
         font-size: 1.8rem;
+    }
+    /* newsletter */
+    .newsletter{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 10px 12px;
+        gap: 24px;
+    }
+    .contact-image{
+        width: 100%;
     }
     
 
@@ -725,6 +776,26 @@ select {
     .facts-card-container .card-stats {
         font-size: 1.8rem;
     }
+
+    /* newsletter */
+    .newsletter{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 50px;
+        gap: 24px;
+    }
+    .contact{
+        text-align: center;
+        border: 1px solid #FF5400;
+        border-radius: 16px;
+    }
+    .contact-form{
+        align-items: center;
+    }
+
+    .contact-image{
+        width: 100%;
+    }
 }
 
 /* larger devices */
@@ -744,7 +815,7 @@ select {
 
     .menu-toggle {
         display: block;
-        padding-right: 50px;
+        padding-right: 110px;
 
     }
 
@@ -763,6 +834,11 @@ select {
         text-align: center;
         padding: 20px;
     }
+
+    .explore{
+        margin: 30px 120px;
+    }
+
 
     .explore-contents {
         padding: 80px 20px 40px 20px;
@@ -861,6 +937,26 @@ select {
     
     .facts-card-container .card-stats {
         font-size: 1.8rem;
+    }
+
+    /* newsletter */
+    .newsletter{
+        flex-direction: column;
+        gap: 24px;
+        margin: 20px 120px;
+    }
+    .contact{
+        text-align: center;
+        border: 1px solid #FF5400;
+        border-radius: 16px;
+        padding: 20px;
+    }
+    .contact form{
+        align-items: center;
+    }
+
+    .contact-image{
+        width: 100%;
     }
 
 }
