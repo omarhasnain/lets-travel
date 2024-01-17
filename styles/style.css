@@ -59,7 +59,6 @@ nav {
 .nav-menu li {
     list-style: none;
     margin-right: 40px;
-    color: #424247;
     font-family: Mulish;
     font-size: 1.125rem;
     font-weight: 400;
@@ -67,6 +66,7 @@ nav {
 
 .nav-menu a {
     text-decoration: none;
+    color: #424247;
 }
 
 .bar {
@@ -444,7 +444,7 @@ border-radius: 16px;
 }
 .contact-image{
     width: 500px;
-height: 510px;
+height: 100%;
 }
 
 .contact-input, .btn-primary{
