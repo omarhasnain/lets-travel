@@ -438,7 +438,7 @@ padding: 40px;
 border: 1px solid #FF5400;
 border-radius: 16px;
 }
-.contact form {
+.contact .contact-form {
     display: flex;
     flex-direction: column;
 }
@@ -448,6 +448,7 @@ height: 510px;
 }
 
 .contact-input, .btn-primary{
+    border: none;
     width: 390px;
     height: 52px;
     margin: 5px;
@@ -469,6 +470,54 @@ font-weight: 700;
 color: white;
 padding: 15px 35px;
 }
+
+/* Footer styles */
+
+.footer{
+    text-align: center;
+    padding: 100px 125px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo-title{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 23px;
+}
+
+.footer-title {
+    margin-left: 15px;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.footer-description{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: hsl(240, 2%, 36%);
+font-size: 16px;
+font-weight: 400;
+padding: 0 150px;
+}
+.social-links{
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+footer .footer .social-links a{
+    text-decoration: none;
+    color: #131318;
+}
+.fa-brands{
+    margin-right: 10px;
+}
+
+
+
+
+
+
 
 /* Responsive Designs */
 /* smaller device */
@@ -642,7 +691,31 @@ padding: 15px 35px;
         box-sizing: border-box;
         border-radius: 8px;
     }
+
+    /* footer */
     
+.footer{
+    text-align: center;
+    padding: 15px 12px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo-title{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo {
+    width: 30px;
+    height: 40px;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.footer-title {
+    margin-left: 15px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    font-weight: 800;
+} 
 
 }
 
