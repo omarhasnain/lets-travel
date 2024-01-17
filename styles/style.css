@@ -470,6 +470,33 @@ font-weight: 700;
 color: white;
 padding: 15px 35px;
 }
+.offer{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 10px;
+    width: 310px;
+height: 90px;
+transform: rotate(-19.628deg);
+    text-align: center;
+    position: relative;
+    bottom: 165px;
+    left: 160px;
+}
+
+.offer .offer-title{
+    margin: 0;
+    color: #FFF;
+font-size: 1.25rem;
+font-weight: 400;
+}
+
+.offer .offer-description{
+    color: #FFF;
+font-size: 2rem;
+font-weight:bolder;
+margin-top: 0;
+}
 
 /* Footer styles */
 
@@ -691,6 +718,19 @@ footer .footer .social-links a{
         box-sizing: border-box;
         border-radius: 8px;
     }
+    .offer{
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        padding: 10px;
+        width: 250px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+        text-align: center;
+        position: relative;
+        bottom: 165px;
+        left: 70px;
+    }
 
     /* footer */
     
@@ -881,6 +921,19 @@ padding: 0 15px;
     .contact-image{
         width: 100%;
     }
+    .offer{
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        padding: 10px;
+        width: 250px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+        text-align: center;
+        position: relative;
+        bottom: 165px;
+        left: 455px;
+    }
 }
 
 /* larger devices */
@@ -1042,6 +1095,20 @@ padding: 0 15px;
 
     .contact-image{
         width: 100%;
+    }
+    .offer{
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        padding: 10px;
+        width: 250px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+        text-align: center;
+        position: relative;
+        bottom: 165px;
+        left: 660px;
+        
     }
 
 }
